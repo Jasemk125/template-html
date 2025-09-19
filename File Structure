@@ -1,0 +1,13 @@
+/my-website
+├── /css
+│   └── bootstrap.min.css (Bootstrap CSS file)
+├── /js
+│   └── bootstrap.bundle.min.js (Bootstrap JS file)
+│   └── main.js (JavaScript to load header/footer dynamically)
+├── index.html
+├── header.html
+├── footer.html
+├── navigation.html
+├── page2.html
+├── page3.html
+├── page4.html
