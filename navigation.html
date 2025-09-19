@@ -1,18 +1,16 @@
-
-<!-- Main Navbar with Bootstrap 5 primary theme -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <!-- Brand Name 
-    <a class="navbar-brand" href="index.html">BrandName</a>
--->
-    <!-- Navbar Toggler (for mobile) -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Brand Name -->
+  <a class="navbar-brand">BrandName</a> 
+
+    <!-- Navbar Toggler (for mobile) aligned to the right -->
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <!-- Navbar Links (collapsible) -->
+    <!-- Navbar Links (collapsible), aligned to the right for small screens -->
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav mx-auto">
+      <ul class="navbar-nav mx-auto text-end">  <!-- Added text-end here -->
         <!-- Home -->
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.html">Home</a>
@@ -23,14 +21,14 @@
           <a class="nav-link dropdown-toggle" href="#" id="navbarSection1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Section 1
           </a>
-          <ul class="dropdown-menu border-0 shadow-sm" aria-labelledby="navbarSection1">
+          <ul class="dropdown-menu border-0 shadow-sm text-end" aria-labelledby="navbarSection1">
             <li><a class="dropdown-item" href="page1.html">Page 1</a></li>
             <li><a class="dropdown-item" href="page2.html">Page 2</a></li>
 
             <!-- Nested Dropdown for Page 2 -->
             <li class="nav-item dropdown">
               <a class="dropdown-item dropdown-toggle" href="#" id="navbarSubsection2" role="button" data-bs-toggle="dropdown" aria-expanded="false" onclick="event.stopPropagation();">More Pages</a>
-              <ul class="dropdown-menu border-0 shadow-sm" aria-labelledby="navbarSubsection2">
+              <ul class="dropdown-menu border-0 shadow-sm text-end" aria-labelledby="navbarSubsection2">
                 <li><a class="dropdown-item" href="page2.1.html">Page 2.1</a></li>
                 <li><a class="dropdown-item" href="page2.2.html">Page 2.2</a></li>
               </ul>
@@ -43,14 +41,14 @@
           <a class="nav-link dropdown-toggle" href="#" id="navbarSection2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Section 2
           </a>
-          <ul class="dropdown-menu border-0 shadow-sm" aria-labelledby="navbarSection2">
+          <ul class="dropdown-menu border-0 shadow-sm text-end" aria-labelledby="navbarSection2">
             <li><a class="dropdown-item" href="page3.html">Page 3</a></li>
             <li><a class="dropdown-item" href="page4.html">Page 4</a></li>
 
             <!-- Nested Dropdown for Page 4 -->
             <li class="nav-item dropdown">
               <a class="dropdown-item dropdown-toggle" href="#" id="navbarSubsection4" role="button" data-bs-toggle="dropdown" aria-expanded="false" onclick="event.stopPropagation();">More Pages</a>
-              <ul class="dropdown-menu border-0 shadow-sm" aria-labelledby="navbarSubsection4">
+              <ul class="dropdown-menu border-0 shadow-sm text-end" aria-labelledby="navbarSubsection4">
                 <li><a class="dropdown-item" href="page4.1.html">Page 4.1</a></li>
                 <li><a class="dropdown-item" href="page4.2.html">Page 4.2</a></li>
                 <li><a class="dropdown-item" href="page4.3.html">Page 4.3</a></li>
@@ -58,7 +56,7 @@
             </li>
           </ul>
         </li>
-
+        
         <!-- Contact -->
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
