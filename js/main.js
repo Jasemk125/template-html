@@ -14,4 +14,5 @@ window.onload = function () {
     loadHTML('header-container', 'header.html');   // Make sure to replace with your actual path
     loadHTML('footer-container', 'footer.html');   // Make sure to replace with your actual path
     loadHTML('navigation-container', 'navigation.html');  // Make sure to replace with your actual path
+    
 };
