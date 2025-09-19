@@ -16,4 +16,5 @@ function loadHTML(containerId, file) {
 window.onload = function () {
     loadHTML('header-container', 'header.html');
     loadHTML('footer-container', 'footer.html');
+    loadHTML('navigation-container','navigation.html');
 };
